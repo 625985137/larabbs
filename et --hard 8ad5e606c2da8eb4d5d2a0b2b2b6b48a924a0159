@@ -1,0 +1,197 @@
+[33mcommit c54f90c6a31ab93e4ecfccf9cf8cdbf0ac87d13e[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: vagrant <vagrant@homestead>
+Date:   Mon Jun 17 14:34:10 2019 +0000
+
+    翻译 URL 标示
+
+[33mcommit 8ad5e606c2da8eb4d5d2a0b2b2b6b48a924a0159[m
+Author: vagrant <vagrant@homestead>
+Date:   Mon Jun 17 13:59:11 2019 +0000
+
+    用户可以删除自己发的话题
+
+[33mcommit f365992bd2df1da60bddfe84ece22fcb151072f3[m
+Author: vagrant <vagrant@homestead>
+Date:   Mon Jun 17 13:53:35 2019 +0000
+
+    用户可以编辑话题
+
+[33mcommit 50b18a437d439aaf33f728aa27a8d9be1ae042b0[m
+Author: vagrant <vagrant@homestead>
+Date:   Mon Jun 17 13:45:30 2019 +0000
+
+    修复 XSS 注入漏洞
+
+[33mcommit ea06cffe0c1091544353f00ed4181d84058301c5[m
+Author: vagrant <vagrant@homestead>
+Date:   Sun Jun 16 14:35:46 2019 +0000
+
+    话题内容页面
+
+[33mcommit 293a72e64024e753ee4a326f767042818c2bc0ec[m
+Author: vagrant <vagrant@homestead>
+Date:   Sun Jun 16 14:20:16 2019 +0000
+
+    用户可以上传话题图片
+
+[33mcommit 520f0121163dc5520ab2cb8317f2938ed68a173b[m
+Author: vagrant <vagrant@homestead>
+Date:   Sun Jun 16 14:14:06 2019 +0000
+
+    WYSIWYG 编辑器
+
+[33mcommit 32ccd551ae5f5e4efb65f3ee2973baa73b37ddb9[m
+Author: vagrant <vagrant@homestead>
+Date:   Sun Jun 16 13:58:44 2019 +0000
+
+    用户可以创建话题
+
+[33mcommit 0efc4297ece5e245dbdba1ee8d090b373496930e[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: vagrant <vagrant@homestead>
+Date:   Sun Jun 16 13:42:04 2019 +0000
+
+    用户话题列表
+
+[33mcommit d5f43689aba25a2281105787e525ed0d1d6589b4[m
+Author: vagrant <vagrant@homestead>
+Date:   Sun Jun 16 13:31:13 2019 +0000
+
+    话题排序
+
+[33mcommit 6b4fdb18965132e647777a4b98b3989397e6d348[m
+Author: vagrant <vagrant@homestead>
+Date:   Sun Jun 16 13:18:00 2019 +0000
+
+    分类话题列表
+
+[33mcommit d63fed78b25e00e82d62cc9c7f1aeccce5671c61[m
+Author: vagrant <vagrant@homestead>
+Date:   Sun Jun 16 12:55:28 2019 +0000
+
+    修复 N+1 问题
+
+[33mcommit fc6b855ebf35190d550aa9e692f74b54f5d07eac[m
+Author: vagrant <vagrant@homestead>
+Date:   Sun Jun 16 12:41:30 2019 +0000
+
+    话题列表页面
+
+[33mcommit c383586a4716acdc9785b61789600e504ab6b387[m
+Author: vagrant <vagrant@homestead>
+Date:   Sun Jun 16 12:33:33 2019 +0000
+
+    填充用户和话题数据
+
+[33mcommit 6d05c4ca88549cfd8ab81363b2947733afbc3c17[m
+Author: vagrant <vagrant@homestead>
+Date:   Sun Jun 16 12:18:38 2019 +0000
+
+    生成话题骨架
+
+[33mcommit 7bef638991507d12d001277b89d4dd3a2cb393cd[m
+Author: vagrant <vagrant@homestead>
+Date:   Sun Jun 16 10:34:02 2019 +0000
+
+    新增 generator 扩展
+
+[33mcommit 463c983390b750bd9bafb535077f1136aac2e4e0[m
+Author: vagrant <vagrant@homestead>
+Date:   Sun Jun 16 10:29:02 2019 +0000
+
+    分类模型和数据
+
+[33mcommit 4bc973c73a8ac1d8e94a8ac16e9894ce9891c0a3[m
+Author: vagrant <vagrant@homestead>
+Date:   Sun Jun 16 03:39:36 2019 +0000
+
+    授权访问
+
+[33mcommit 5a57534f5b45891726c55620456afbee34e80aef[m
+Author: vagrant <vagrant@homestead>
+Date:   Sun Jun 16 03:27:18 2019 +0000
+
+    裁剪头像
+
+[33mcommit 9abbce59627c663d821db3a229fcb48a31e071ea[m
+Author: vagrant <vagrant@homestead>
+Date:   Sun Jun 16 03:16:46 2019 +0000
+
+    限制头像分辨率
+
+[33mcommit ea3fa097f4324d82181642ea6b6c5b476c2765ce[m
+Author: vagrant <vagrant@homestead>
+Date:   Sun Jun 16 03:14:10 2019 +0000
+
+    显示头像
+
+[33mcommit 1d12df420c9000cda7aa7f05e87777e3b4e761b3[m
+Author: vagrant <vagrant@homestead>
+Date:   Sun Jun 16 02:52:39 2019 +0000
+
+    上传头像
+
+[33mcommit 5e24ae5d9231a5a93bf24f06ea55bea56eb10444[m
+Author: vagrant <vagrant@homestead>
+Date:   Sun Jun 16 02:35:34 2019 +0000
+
+    显示个人资料
+
+[33mcommit 1a59ec94f7d7df761b97f3fc07cb6d2332a9c402[m
+Author: vagrant <vagrant@homestead>
+Date:   Sun Jun 16 02:31:00 2019 +0000
+
+    编辑个人资料
+
+[33mcommit a88878e6acbf98114cfc68bb8b07f742e6a263db[m
+Author: vagrant <vagrant@homestead>
+Date:   Sun Jun 16 02:09:29 2019 +0000
+
+    用户个人页面原型
+
+[33mcommit fa359a660cc174a80cb3b258c95f42b2c989ea48[m
+Author: vagrant <vagrant@homestead>
+Date:   Sun Jun 16 00:58:25 2019 +0000
+
+    找回密码成功消息提示
+
+[33mcommit 0ecd2dde1ad0edb1d014abe13e85508c91ea07ef[m
+Author: vagrant <vagrant@homestead>
+Date:   Sun Jun 16 00:21:18 2019 +0000
+
+    认证后的消息提醒
+
+[33mcommit e09bddbfea6dac05c1a7cf02dba91775b8c5025f[m
+Author: vagrant <vagrant@homestead>
+Date:   Sun Jun 16 00:01:54 2019 +0000
+
+    邮箱认证
+
+[33mcommit 9b7b2b6a2fcd2379ca1861675b064c5837bccc1e[m
+Author: vagrant <vagrant@homestead>
+Date:   Sat Jun 15 23:44:44 2019 +0000
+
+    移动 User 模型到 app/models 目录
+
+[33mcommit 4c721803b817b290f459337297b1360a4dbd93f3[m
+Author: vagrant <vagrant@homestead>
+Date:   Sat Jun 15 14:09:58 2019 +0000
+
+    注册验证码
+
+[33mcommit 6101a3dbf72b05bd2dc72f4d5f43e17d36920d3b[m
+Author: vagrant <vagrant@homestead>
+Date:   Sat Jun 15 14:01:07 2019 +0000
+
+    修复跳转链接
+
+[33mcommit 4c4421dc6e9e9bc52cdc6ad19fc3b23ecb394891[m
+Author: vagrant <vagrant@homestead>
+Date:   Sat Jun 15 13:30:01 2019 +0000
+
+    生成用户认证代码
+
+[33mcommit e48c7007ca43c0c9285a9f6752434a5c775dda5a[m
+Author: vagrant <vagrant@homestead>
+Date:   Sat Jun 15 11:04:06 2019 +0000
+
+    commit message
