@@ -6,30 +6,9 @@ class ReplyRequest extends Request
 {
     public function rules()
     {
-        switch($this->method())
-        {
-            // CREATE
-            case 'POST':
-            {
-                return [
-                    // CREATE ROLES
-                ];
-            }
-            // UPDATE
-            case 'PUT':
-            case 'PATCH':
-            {
-                return [
-                    // UPDATE ROLES
-                ];
-            }
-            case 'GET':
-            case 'DELETE':
-            default:
-            {
-                return [];
-            };
-        }
+        return [
+            'content' => 'required|min:2',
+        ];
     }
 
     public function messages()
@@ -37,5 +16,20 @@ class ReplyRequest extends Request
         return [
             // Validation messages
         ];
+    }
+
+    public function withValidator($validator)
+    {
+        $content = $this->request->get('content');
+
+        $content = clean($content, 'user_topic_body');
+
+        if($content == "")
+        {
+            $validator->errors()->add( 'content', '回复内容为空或有异常标签!' );
+            $this->failedValidation($validator);
+        }
+
+        $this->request->set('content', $content);
     }
 }
